@@ -109,6 +109,17 @@ li.dropdown {
   
 }
 
+.col-2 i{
+
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 39px;
+  color: #fff;
+  margin-left: 10px;
+  
+  
+}
+
 .footer .col-3 {
 
   margin-right: 50px;
@@ -143,7 +154,7 @@ h2{
 
 .home-page h1{
 
-  font-size: 54px;
+    font-size: 54px;
     font-family: 'Lobster1-4',sans-serif;
     color: #A7221A;
     letter-spacing: 0.9px;
@@ -274,12 +285,128 @@ border-radius:30px ;
     width: 300px;
     
   }
- 
 
-   
+ /* tela contact */
+
+.contact-box1{
+
+  margin-left: 50px;
+}
+  
+  .contact-page h1{
+
+      font-size: 44px;
+      font-family: 'Lobster1-4',sans-serif;
+      color: #A7221A;
+      letter-spacing: 0.9px;
+      z-index: 999;
+      line-height: 75px;
+      
+  }
+
+  .contact-page h4{
+
+    font-size: 20px;
+    color: #b4a40d;
+  }
+
+  .contact-page a{
+
+    font-size: 54px;
+    margin: 10px;
+    color: rgba(0,0,0,.9);
+  }
+
+  .contact-page h3{
+
+    color: #8a1e10;
+  }
+
+  .box-feedback{
+
+    margin-left: 50px;
+  }
+
+  #bnt{
+    padding: 10px;
+    margin-left: 325px;
+    color: #fff;
+    size: 0px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #8a1e10 ; 
+    cursor: pointer;   
+    
+  }
+
+  #txt{
+
+    padding: 0.2em;
+    border: 1px solid #CCC;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    
+    
+  }
+
+  /* tela cardapio */
+
+  .cardapio-page h1{
+
+    font-size: 50px;
+    font-family: 'Lobster1-4',sans-serif;
+    color: #A7221A;
+    letter-spacing: 0.9px;
+    z-index: 999;
+    line-height: 75px;
+    text-align: center;
+  }
+
+  .cardapio-page .col1{
+
+
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 200px;
+    word-break: break-all;
+  }
+
+  .col1 img{
+    width: 300px;
+  }
+  
+  
+  .cardapio-page .col2{
 
     
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    text-align: center;
+    word-break: break-all;
+    
+  }
 
+  .col2 img{
+    width: 300px;
+  }
+   
+  .cardapio-page h2{
+
+    background-color: #8a1e10;
+    color: #ffffffe7;
+    border-radius: 12px;
+  }
+    
+
+  .cardapio-page{
+
+    text-align: center;
+    
+  }
+  
   
 
 

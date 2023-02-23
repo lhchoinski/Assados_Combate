@@ -1,9 +1,44 @@
 import React from "react";
 const Cardapio_carnes = () => {
     return (
-        <div>
-            <h1>Cardapio de carnes</h1>
-    
+        <div class="cardapio-page">
+
+
+            <h1> CARNES </h1>
+
+            <div class="col1">
+
+                <img src="almoco.jpg" alt="" />
+                <h2>Nome da carne</h2>
+                <p>Descricao</p>
+
+                <img src="almoco.jpg" alt="" />
+                <h2>Nome da carne</h2>
+                <p>Descricao</p>
+
+                <img src="almoco.jpg" alt="" />
+                <h2>Nome da carne</h2>
+                <p>Descricao</p>
+
+                
+
+            </div>
+
+            <div class="col2">
+
+                <img src="almoco.jpg" alt="" />
+                <h2>Nome da carne</h2>
+                <p>Descricao</p>
+
+                <img src="almoco.jpg" alt="" />
+                <h2>Nome da carne</h2>
+                <p>Descricao</p>
+
+                <img src="almoco.jpg" alt="" />
+                <h2>Nome da carne</h2>
+                <p>Descricao</p>
+
+            </div>
             
         </div>
     )
